@@ -1,6 +1,7 @@
 {
-    "name": "theoluirard/get-table-name",
+    "name": "theoluirard/laravel-get-table-name",
     "description": "A package that adds a trait to the Laravel Model class and extends the Laravel Relation class with two new types of relations.",
+    "license": "MIT",
     "require": {
         "php": "^7.2|^8.0|^8.1|^8.2|^8.3",
         "laravel/laravel": "^8.0|^9.0|^10.0|^11.0|^12.0"
