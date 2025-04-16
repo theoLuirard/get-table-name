@@ -1,17 +1,16 @@
-# Tree Structured Relation
+# Get Table Name
 
-This package provides a way to manage tree-structured data relations in your application
-
+This package provides a way to get statically table name and primary key in laravel
 ## Features
 
-- 
+- Implement 2 methods to retrieve table name & primary key name
 
 ## Installation
 
 To install the package, use the following command:
 
 ```bash
-composer require theoLuirard/laravel-get-table-name-trait 
+composer require theoLuirard/laravel-get-table-name 
 ```
 
 ## Configuration
@@ -29,7 +28,7 @@ namespace App\Models;
 use HasTreeStructure;
 use Illuminate\Database\Eloquent\Model;
 
-class Domaine extends Model
+class MyModel extends Model
 {
     use HasTreeStructure;
 }
